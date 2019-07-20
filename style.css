@@ -1,0 +1,59 @@
+
+body{
+    letter-spacing: .05em;
+}
+
+#header{
+    background: white;
+    height: 75px;
+    padding: 0;
+    padding-top: 15px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("images/hero-image2.jpg");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+}
+
+    #crime, #flightInfo{
+        padding-top: 50px;
+    }
+    
+    #photo{
+        display: block;
+        max-width: 80%;
+    }
+ #safetyInfo, #tips{
+        height: 300px;
+    }
+    .card-deck{
+    padding: 50px;
+    margin: 10px;
+    }
+    
+   
+
+    #drop{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    #depart, #arrive{
+    margin: 10px;
+    }
+
+    #tips {
+        padding: 10%;
+    }
